@@ -1,0 +1,69 @@
+.footer{
+    background-color: #303030;
+    padding: 2rem 8rem;
+    box-sizing: border-box;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.firstrow{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .secondrow{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.logotext{
+   
+    margin-top: 35px;
+}
+
+.links{
+    display: flex;
+    align-items:center;
+    gap: 2rem;
+}
+
+.icons{
+    display: flex;
+    align-items:flex-end;
+    gap: 2rem;
+}
+
+.footertitle{
+    font-weight: 800;
+	font-size: 20px;
+    color: #FFFFFF; 
+}
+
+.cardTitle1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.cardTitle2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.copyright{
+    display: flex;
+    align-items:flex-start;
+    gap: 2rem;
+}

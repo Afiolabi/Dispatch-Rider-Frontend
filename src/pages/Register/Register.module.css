@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.userregister_container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.userregbg_background {
+  width: 60%;
+
+
+}
+.userregbg_background img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+
+}
+.userregdelivery {
+  position: absolute;
+  width: 370px;
+  height: 144px;
+  left: 50px;
+  top: 470px;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 35px;
+  display: flex;
+  color: white;
+  margin-bottom: 20px;
+}
+.form_style {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.form-top {
+  display: flex;
+}
+.swift {
+  color: red;
+  font-weight: bold;
+  display: fixed;
+  position: relative;
+  left: 10px;
+  font-size: 15px;
+}
+.rider_top {
+  left: 0px;
+  display: flex;
+  margin-top: 10px;
+  width: 80%;
+}
+.registerinputs {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  border-radius: 6px;
+  border-color: #012a4a;
+  width: 300px;
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+  border: 1px solid #012a4a;
+  border-radius: 6px;
+  display: flex;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.labels {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+ 
+
+.pTag {
+  color: black;
+}
+.sign {
+  color: red;
+  font-weight: bold;
+}
+.signup_head {
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  margin-top: 50px;
+  color: #012a4a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.passIcon {
+  position: absolute;
+  left: 110px;
+  top: 413px;
+}
+.btn_Reg {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 16px 24px;
+  background: #e02b45;
+  border-radius: 6px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+}
+
+ 
+
+@media screen and (max-width: 950px) {
+  .userregister_container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .userregbg_background {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+  }
+    .userregbg_background img {
+      width: 100%;
+    }
+
+ 
+
+    .userregdelivery {
+      width: 300px;
+      top: 440px;
+      font-size: 25px;
+    }
+  .form_style {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+  }
+}
+@media screen and (max-width: 350px) {
+.userregbg_background{
+      width: 100%;
+      display: flex;
+
+    }
+     .userregbg_background img{
+      width: 100%;
+      display: flex;
+
+    }
+
+ 
+
+    .form_style {
+    display: flex;
+    width: 100%;
+    }
+}

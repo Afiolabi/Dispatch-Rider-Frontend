@@ -1,0 +1,13 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #F8F8F8
+} */
+
+.rider_history_container{
+  display: flex;
+ justify-content: center;    
+ align-items: center;
+}

@@ -1,0 +1,134 @@
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 50px 0;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1.services_h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #e02b45;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+p.services_p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #21334F;
+    text-align: center;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    max-width: 66rem;
+    line-height: 1.2;
+}
+
+.grid{
+display: flex;
+flex-direction: column;
+margin-bottom: 5rem;
+gap: 3rem;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.column1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+    border:  2px solid #D9D9D9;
+    gap: 2rem ;
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #21334F;
+    /* margin-bottom: 1rem; */
+}
+
+.qualityriders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px ;
+    gap: 3rem;
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+.riderText{
+    display: flex;
+    flex-direction: column;
+     width: 40%;
+    /* margin: 0 auto; */
+}
+
+.clientCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    text-align: center;
+    border:   1px solid #D9D9D9;
+}
+
+.imageCircle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 4rem;
+}
+
+.clientText{
+margin: 5rem 3rem;
+}
+
+.textStars{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    gap: 1rem;
+    margin-top: 3rem
+}

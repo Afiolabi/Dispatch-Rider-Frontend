@@ -1,0 +1,54 @@
+.h{
+    background: #E5E5E5;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    background-color: red;
+}
+
+.h{
+    background: #E5E5E5;
+    height: 100vh;
+    margin:auto;
+    display: flex
+}
+.fill{
+    width: 396px;
+    height: 48px;
+    margin-top: 10px;
+    border: 1px solid #BDBDBD;
+}
+.size{
+    margin: 10px;
+}
+
+.nter {
+    width: 400px;
+height: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+padding: 5px;
+color: #C4C4C4;
+}
+.resetBtn{
+    background-color: #E02B45;
+    padding: 16px, 24px, 16px, 24px;
+    width: 396px;
+    height: 48px;
+    border: none;
+    color: #FFFFFF;
+
+}
+.backLog{
+    margin-top: 20px;
+    padding: 8px, 16px, 10px, 16px;
+    width: 200px;
+    height: 48px;
+    border: 1px solid #BDBDBD;
+    background-color: #FFFFFF;
+}
